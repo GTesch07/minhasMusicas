@@ -1,4 +1,4 @@
-package com.guilherme.tesch.modelos;
+package com.guilherme.tesch.minhasmusicas.modelos;
 
 public class Audio {
     private String titulo;
