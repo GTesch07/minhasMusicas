@@ -1,5 +1,6 @@
 package com.guilherme.tesch.minhasmusicas.principal;
 
+import com.guilherme.tesch.minhasmusicas.modelos.MinhasPreferidas;
 import com.guilherme.tesch.minhasmusicas.modelos.Musica;
 import com.guilherme.tesch.minhasmusicas.modelos.Podcast;
 
@@ -32,6 +33,9 @@ public class Principal {
             meuPodcast.curte();
         }
 
+        MinhasPreferidas preferidas = new MinhasPreferidas();
 
+        preferidas.inclui(meuPodcast);
+        preferidas.inclui(minhaMusica);
     }
 }

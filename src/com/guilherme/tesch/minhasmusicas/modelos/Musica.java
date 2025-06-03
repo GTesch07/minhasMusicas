@@ -31,7 +31,7 @@ public class Musica extends Audio {
 
     @Override
     public int getClassificacao() {
-        if (this.getTotalReproducoes() > 200){
+        if (this.getTotalReproducoes() > 2000){
             return 10;
         }else{
             return 7;
